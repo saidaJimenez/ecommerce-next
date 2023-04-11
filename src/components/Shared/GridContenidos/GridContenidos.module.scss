@@ -1,0 +1,43 @@
+.gridContenidos{
+    display: flex;
+    flex-wrap: wrap;
+    margin:-3px;
+    margin-top: 5px;
+
+}
+
+.contenido{
+    width: 30.33%;
+    margin-top: 1px;
+
+
+    &:hover {
+        opacity: 0.6;
+    }
+
+    > div{
+        position: relative;
+        padding: 5px 5px 0 5px;
+
+        &:last-of-type{
+            padding-top: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+      > img {
+        width: 100%;
+        
+       }
+       .discount{
+        position:absolute;
+        left: 10px;
+        bottom: 5px;
+
+       }
+       .price {
+        font-size:  18px;
+       }
+    }
+
+}

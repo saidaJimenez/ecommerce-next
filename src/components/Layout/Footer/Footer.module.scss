@@ -1,0 +1,47 @@
+@import "~/src/scss/index.scss";
+
+.footer{
+    background-color:$border-secondary;
+    padding: 10px 0px;
+}
+
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+
+    >div {
+        width: 33.33%;
+        >a>img {
+            width: 100px;
+        }
+       > ul{
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+        margin:0;
+        padding:0;
+        }
+
+        &.social {
+            display:flex;
+            justify-content: flex-end;
+            align-items:flex-start;
+
+            > a {
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.copyright{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid $primary;
+
+
+    >span{
+        color:$text-secondary
+    }
+}
