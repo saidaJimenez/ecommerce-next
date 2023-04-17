@@ -1,6 +1,6 @@
 import { Button, Container, Image } from "semantic-ui-react";
 import Link from "next/link";
-import styles  from "./BannerAd.module.scss";
+import styles from "./BannerAd.module.scss";
 
 export  function BannerAd(props) {
     const {title, subtitle, btnTitle, btnLink, image} = props;
